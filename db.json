@@ -1,0 +1,198 @@
+{
+    "user":  [
+        {
+            "name": "Samuel Otávio Araújo",
+            "cpf":"915.582.030-10",
+            "data_nascimento": "18/12/2007",
+            "id": 1
+        },
+        {
+            "name": "Raimundo César Moreira",
+            "cpf":"686.595.380-05",
+            "data_nascimento": "11/09/1999",
+            "id": 2
+        },
+        {
+            "name": "Vitor Matheus da Luz",
+            "cpf":"220.293.440-52",
+            "data_nascimento": "25/08/1980",
+            "id": 3
+        },
+        {
+            "name": "Carla Teresinha Vitória Gonçalves",
+            "cpf":"542.957.692-15",
+            "data_nascimento": "10/01/1991",
+            "id": 4
+        },
+        {
+            "name": "Hugo César Rodrigues",
+            "cpf":"108.350.624-22",
+            "data_nascimento": "15/02/2002",
+            "id": 5
+        },
+        {
+            "name": "Sophia Sebastiana Manuela Oliveira",
+            "cpf":"363.995.868-36",
+            "data_nascimento": "04/07/2003",
+            "id": 6
+        },
+        {
+            "name": "Lucas Tiago Anderson Viana",
+            "cpf":"069.332.256-07",
+            "data_nascimento": "30/08/1970",
+            "id": 7
+        },
+        {
+            "name": "Emanuelly Jéssica",
+            "cpf":"633.272.758-66",
+            "data_nascimento": "13/04/1998",
+            "id": 8
+        },
+        {
+            "name": "Cauã Rodrigo Luiz Viana",
+            "cpf":"199.145.411-27",
+            "data_nascimento": "22/03/1975",
+            "id": 9
+        },
+        {
+            "name": "José Silva Olveira",
+            "cpf":"779.956.772-43",
+            "data_nascimento": "10/12/2000",
+            "id": 10
+        }
+    ],
+    "filmes":  [
+        {
+            "titulo": "O jogo da imitação",
+            "classificacao_indicativa":"12",
+            "lancamento": "0",
+            "id": 1
+        },
+        {
+            "titulo": "A teoria de tudo",
+            "classificacao_indicativa":"10",
+            "lancamento": "0",
+            "id": 2
+        },
+        {
+            "titulo": "Piratas do Caribe",
+            "classificacao_indicativa":"14",
+            "lancamento": "0",
+            "id": 3
+        },
+        {
+            "titulo": "Não olhe para cima",
+            "classificacao_indicativa":"18",
+            "lancamento": "1",
+            "id": 4
+        },
+        {
+            "titulo": "Vingança e Castigo",
+            "classificacao_indicativa":"18",
+            "lancamento": "0",
+            "id": 5
+        },
+        {
+            "titulo": "O Esquadrão Suicida",
+            "classificacao_indicativa":"16",
+            "lancamento": "0",
+            "id": 6
+        },
+        {
+            "titulo": "Eternos",
+            "classificacao_indicativa":"14",
+            "lancamento": "1",
+            "id": 7
+        },
+        {
+            "titulo": "Shang-Chi e a Lenda dos Dez Anéis",
+            "classificacao_indicativa":"10",
+            "lancamento": "1",
+            "id": 8
+        },
+        {
+            "titulo": "Homem-Aranha: Sem Volta para Casa",
+            "classificacao_indicativa":"12",
+            "lancamento": "1",
+            "id": 9
+        },
+        {
+            "titulo": "Uma mente brilhante",
+            "classificacao_indicativa":"10",
+            "lancamento": "0",
+            "id": 10
+        }
+    ],
+    "locacao":  [
+        {
+            "data_locacao": "01/11/2021",
+            "data_devolucao":"03/11/2021",
+            "filme": "6",
+            "cliente": 3,
+            "id": 1
+        },
+        {
+            "data_locacao": "04/11/2021",
+            "data_devolucao":"",
+            "filme": "5",
+            "cliente": 4,
+            "id": 2
+        },
+        {
+            "data_locacao": "05/11/2021",
+            "data_devolucao":"07/11/2021",
+            "filme": "8",
+            "cliente": 8,
+            "id": 3
+        },
+        {
+            "data_locacao": "05/11/2021",
+            "data_devolucao":"",
+            "filme": "10",
+            "cliente": 1,
+            "id": 4
+        },
+        {
+            "data_locacao": "10/11/2021",
+            "data_devolucao":"12/11/2021",
+            "filme": "4",
+            "cliente": 5,
+            "id": 5
+        },
+        {
+            "data_locacao": "15/11/2021",
+            "data_devolucao":"17/11/2021",
+            "filme": "6",
+            "cliente": 2,
+            "id": 6
+        },
+        {
+            "data_locacao": "15/11/2021",
+            "data_devolucao":"17/11/2021",
+            "filme": "7",
+            "cliente": 3,
+            "id": 7
+        },
+        {
+            "data_locacao": "18/11/2021",
+            "data_devolucao":"20/11/2021",
+            "filme": "8",
+            "cliente": 9,
+            "id": 8
+        },
+        {
+            "data_locacao": "04/12/2021",
+            "data_devolucao":"06/12/2021",
+            "filme": "9",
+            "cliente": 3,
+            "id": 9
+        },
+        {
+            "data_locacao": "05/12/2021",
+            "data_devolucao":"",
+            "filme": "8",
+            "cliente": 1,
+            "id": 10
+        }
+    ]
+}

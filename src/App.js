@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+/* eslint-disable react/jsx-no-undef */
+/* eslint-disable no-undef */
 import './App.css';
+// eslint-disable-next-line no-unused-vars
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+      <Route exact path="/home" component={Home} />
+      <Route exact path="/addUser" component={AddUser} />
+      <Route exact path="/editUser/:id" component={EditUser} />
+    </BrowserRouter>
+      
     </div>
   );
 }
